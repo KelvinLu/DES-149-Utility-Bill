@@ -1,0 +1,240 @@
+body {
+  font-family: 'Lato', sans-serif;
+
+  background-color: rgb(255, 255, 255);
+  color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  font-family: 'Lato', sans-serif;
+}
+
+div.full-row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+div.full-height {
+  height: 100%;
+}
+
+div.row#header {
+  height: 10vh;
+}
+
+div.row#top {
+  height: 40vh;
+}
+
+div.row#bottom {
+  height: 45vh;
+}
+
+div#contact {
+  text-align: right;
+}
+
+div#bill {
+  position: relative;
+
+  background-color: rgba(235, 0, 55, 1);
+}
+
+div#bill, div#bill h1, div#bill h2 {
+  color: white;
+}
+
+div#bill a#details {
+  position: absolute;
+
+  right: 0;
+  bottom: 0;
+
+  padding: 0.2em;
+}
+
+div.fun-fact {
+  padding: 2em;
+}
+
+div.fun-fact p, div.fun-fact li {
+  font-size: 0.8em;
+
+  margin-bottom: 0;
+}
+
+div#bill-table {
+  padding: 0.5em;
+
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  width: 100%;
+
+  background-color: rgba(235, 0, 55, 1);
+
+  z-index: 1;
+}
+
+a#details {
+  background: black;
+  color: white;
+}
+
+div#bill-table table {
+  width: 100%;
+}
+
+div#bill-table table td:nth-of-type(3) {
+  text-align : right;
+}
+
+div#bill-table table tr.table-header {
+  font-weight: 700;
+}
+
+div.h-chart {
+  width: 100%;
+  height: 100%;
+}
+
+div.v-chart {
+  width: 100%;
+  height: 80%;
+
+  position: absolute;
+  top: 10%;
+}
+
+div.v-chart div.v-bar span {
+  position: absolute;
+  bottom: 100%;
+
+  font-size: 0.8em;
+}
+
+div.h-chart#versus-neighborhood {
+  border-left: 2px solid black;
+}
+
+div.h-chart#versus-neighborhood div.h-bar {
+  position: relative;
+
+  margin-top: 0.25em;
+
+  background-color: rgba(170, 175, 190, 1);
+}
+
+div.h-chart#versus-neighborhood div.h-bar span {
+  font-size: 0.8em;
+
+  position: absolute;
+  right: 0;
+
+  padding-right: 0.5em;
+}
+
+div.h-chart#versus-neighborhood div.h-bar#versus-neighborhood-user {
+  width: 90%;
+
+  background-color: rgba(112, 142, 164, 1);
+}
+
+div.h-chart#versus-neighborhood div.h-bar#versus-neighborhood-neighborhood {
+  width: 100%;
+}
+
+div.v-chart#daily-usage {
+  position: relative;
+
+  border-bottom: 2px solid black;
+}
+
+div.v-chart#daily-usage div.v-bar {
+  width: 30%;
+
+  position: absolute;
+  bottom: 0;
+
+  display: inline-block;
+
+  background-color: rgba(170, 175, 190, 1);
+}
+
+div.v-chart#daily-usage div.v-bar#daily-usage-morning {
+  height: 49%;
+
+  left: 0%;
+}
+
+div.v-chart#daily-usage div.v-bar#daily-usage-afternoon {
+  height: 41%;
+
+  left: 35%;
+}
+
+div.v-chart#daily-usage div.v-bar#daily-usage-night {
+  height: 93%;
+
+  left: 70%;
+
+  background-color: rgba(112, 142, 164, 1);
+}
+
+div.v-chart#monthly-usage {
+  position: relative;
+
+  border-bottom: 2px solid black;
+}
+
+div.v-chart#monthly-usage div.v-bar {
+  width: 15%;
+
+  position: absolute;
+  bottom: 0;
+
+  display: inline-block;
+
+  background-color: rgba(170, 175, 190, 1);
+}
+
+div.v-chart#monthly-usage div.v-bar#monthly-usage-feb {
+  height: 86.1%;
+
+  left: 0%;
+}
+
+div.v-chart#monthly-usage div.v-bar#monthly-usage-mar {
+  height: 85.2%;
+
+  left: 17%;
+}
+
+div.v-chart#monthly-usage div.v-bar#monthly-usage-apr {
+  height: 88.7%;
+
+  left: 34%;
+}
+
+div.v-chart#monthly-usage div.v-bar#monthly-usage-may {
+  height: 87.3%;
+
+  left: 51%;
+}
+
+div.v-chart#monthly-usage div.v-bar#monthly-usage-jun {
+  height: 94.4%;
+
+  left: 68%;
+}
+
+div.v-chart#monthly-usage div.v-bar#monthly-usage-jul {
+  height: 96%;
+
+  left: 85%;
+
+  background-color: rgba(112, 142, 164, 1);
+}
