@@ -21,15 +21,17 @@ div.full-height {
 }
 
 div.row#header {
-  height: 10vh;
+  height: 15vh;
+
+  border-bottom: 4px solid black;
 }
 
 div.row#top {
-  height: 40vh;
+  height: 35vh;
 }
 
 div.row#bottom {
-  height: 45vh;
+  height: 40vh;
 }
 
 div#contact {
@@ -56,7 +58,7 @@ div#bill a#details {
 }
 
 div.fun-fact {
-  padding: 2em;
+  padding: 0 2em 0 2em;
 }
 
 div.fun-fact p, div.fun-fact li {
@@ -237,4 +239,8 @@ div.v-chart#monthly-usage div.v-bar#monthly-usage-jul {
   left: 85%;
 
   background-color: rgba(112, 142, 164, 1);
+}
+
+span.heading {
+  font-weight: 700;
 }

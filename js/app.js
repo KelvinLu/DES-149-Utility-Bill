@@ -17,7 +17,7 @@ function showfunfact(g1, g2) {
     t = Math.round(dg);
     s = Math.round(dg / 31 / 5);
     f = Math.round(dg / 31 / 2);
-    l = Math.round(dg / 250);
+    l = Math.round((dg / 250) * 10) / 10;
     c = Math.round(0.00602 * dg * 100) / 100
 
     funfact.stop().fadeIn();
